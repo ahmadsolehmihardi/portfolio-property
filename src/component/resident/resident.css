@@ -1,0 +1,33 @@
+.r-wrapper{
+    position: relative;
+}
+.r-head{
+    margin-bottom: 2rem;
+    transition: all .5s ease-in;
+}
+.card{
+    margin-top: 5rem;
+}
+.card img{  
+    width: 22rem;
+   
+}
+.card img:hover{
+    transform: scale(1.025);
+    cursor: pointer;
+}
+.r-button{
+    position: absolute;
+    top: 0;
+    right: 35px;
+    z-index: 1;
+    
+}
+.r-button button{
+    padding: .3rem 1rem;
+    margin-left: 10px;
+    cursor: 'pointer';
+    border: none;
+    border-radius: 4px;
+    font-weight: 500;
+}

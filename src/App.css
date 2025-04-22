@@ -1,0 +1,19 @@
+.app{
+  position: relative;
+  overflow-x: clip;
+}
+.app>:nth-child(1){
+  background:var(--black);
+  position: relative;
+}
+.white-grediant{
+  width: 20rem;
+  height: 20rem;
+  background-color: rgba(255, 255, 255,0.255);
+  position: absolute;
+  z-index: 1;
+  border-radius: 100%;
+  filter: blur(100px);
+  top: 10px;
+
+}

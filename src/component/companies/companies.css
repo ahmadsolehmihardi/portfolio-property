@@ -1,0 +1,10 @@
+.c-container{
+    justify-content: space-between;
+    padding: 2rem 0;
+}
+
+
+.c-container img{
+    width: 7rem;
+    
+}

@@ -1,0 +1,57 @@
+.contactModes{
+    margin-top: 2rem;
+    gap: 1rem;
+}
+.contactModes .row{
+    gap: 1.5rem;
+}
+.mode{
+    width: 16rem;
+    padding: 1rem;
+    border:  .8px solid rgba(232 232 232 / 93%);
+    gap: 1rem;
+    border-radius: 8px;
+    transition: all 500ms ease-in;
+
+}
+.mode .button{
+    width: 100%;
+    background: var(--lightBlue);
+    color: var(--blue);
+    font-weight: 600;
+    
+}
+
+.mode .icon{
+    background: var(--lightBlue);
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 8px;
+    margin-right: 1rem;
+}
+.detail .flexColStart .primaryText{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.mode:hover{
+    transform: scale(1.1);
+    box-shadow: var( --shadow);
+}
+.mode .button:hover{
+    background: var(--blue);
+    color: var(--lightBlue);
+ 
+}
+.baris{
+    display: flex;
+    justify-content: space-between;
+    gap: 3.5rem;
+}
+.contactModes .baris:nth-child(1){
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}
+.c-right .image-container{
+    border: 8px solid rgba(232 232 232 / 93%);
+
+}
